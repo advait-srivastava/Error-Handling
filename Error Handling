@@ -1,7 +1,7 @@
 def divide(a, b):
     try:
         result = a / b
-        print(f"Result: {result}")
+        print(f"Result: {result}") # f is formatted string literal
     except ZeroDivisionError as e:
         print("Error: Cannot divide by zero.")
     finally:
